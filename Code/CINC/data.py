@@ -35,7 +35,7 @@ for i in range(8528):
 
         if len(record) < 2500 and len(record)>=1250:
             Seg  = record[0:1250]
-            if label == 'T' :
+            if label == 'N' :
                 N.append(Seg)
             if label == 'A':
                 AF.append(Seg)
@@ -43,7 +43,7 @@ for i in range(8528):
         if len(record) < 3750 and len(record)>=2500:
             Seg = record[0:1250]
             Seg1 = record[1250:2500]
-            if label == 'T'  :
+            if label == 'N'  :
                 N.append(Seg)
             if label == 'A':
                 AF.append(Seg)
@@ -55,7 +55,7 @@ for i in range(8528):
             Seg = record[0:1250]
             Seg1 = record[1250:2500]
             Seg2 = record[2500:3750]
-            if label == 'T'  :
+            if label == 'N'  :
                 N.append(Seg)
             if label == 'A':
                 AF.append(Seg)
@@ -68,7 +68,7 @@ for i in range(8528):
             Seg1 = record[1250:2500]
             Seg2 = record[2500:3750]
             Seg3 = record[3750:5000]
-            if label == 'T'  :
+            if label == 'N'  :
                 N.append(Seg)
             if label == 'A':
                 AF.append(Seg)
@@ -83,7 +83,7 @@ for i in range(8528):
                 Seg2 = record[2500:3750]
                 Seg3 = record[3750:5000]
                 Seg4 = record[5000:6250]
-                if label == 'T'  :
+                if label == 'N'  :
                     N.append(Seg)
                 if label == 'A':
                     AF.append(Seg)
@@ -101,7 +101,7 @@ for i in range(8528):
                     Seg3 = record[3750:5000]
                     Seg4 = record[5000:6250]
                     Seg5 = record[6250:7500]
-                    if label == 'T'  :
+                    if label == 'N'  :
                         N.append(Seg)
                     if label == 'A':
                         AF.append(Seg)
@@ -120,7 +120,7 @@ for i in range(8528):
                     Seg4 = record[5000:6250]
                     Seg5 = record[6250:7500]
                     Seg6 = record[7500:8750]
-                    if label == 'T'  :
+                    if label == 'N'  :
                         N.append(Seg)
                     if label == 'A':
                         AF.append(Seg)
@@ -140,7 +140,7 @@ for i in range(8528):
                     Seg5 = record[6250:7500]
                     Seg6 = record[7500:8750]
                     Seg7 = record[8750:10000]
-                    if label == 'T' :
+                    if label == 'N' :
                         N.append(Seg)
                     if label == 'A':
                         AF.append(Seg)
@@ -163,7 +163,7 @@ for i in range(8528):
                     Seg6 = record[7500:8750]
                     Seg7 = record[8750:10000]
                     Seg8 = record[10000:11250]
-                    if label == 'T' :
+                    if label == 'N' :
                         N.append(Seg)
                     if label == 'A':
                         AF.append(Seg)
@@ -188,7 +188,7 @@ for i in range(8528):
                     Seg7 = record[8750:10000]
                     Seg8 = record[10000:11250]
                     Seg9 = record[11250:12500]
-                    if label == 'T'  :
+                    if label == 'N'  :
                         N.append(Seg)
                     if label == 'A':
                         AF.append(Seg)
@@ -215,7 +215,7 @@ for i in range(8528):
                     Seg8 = record[10000:11250]
                     Seg9 = record[11250:12500]
                     Seg10 = record[12500:13750]
-                    if label == 'T':
+                    if label == 'N':
                         N.append(Seg)
                     if label == 'A':
                         AF.append(Seg)
@@ -244,7 +244,7 @@ for i in range(8528):
                     Seg9 = record[11250:12500]
                     Seg10 = record[12500:13750]
                     Seg11 = record[13750:15000]
-                    if label == 'T'  :
+                    if label == 'N'  :
                         N.append(Seg)
                     if label == 'A':
                         AF.append(Seg)
